@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+div{
+    text-align: center;
+    padding-top: 20px ;
+}
+#registro{ 
+    width: 300px; 
+    padding: 10px; 
+    border: 1px solid #333; 
+    border-radius: 10px; 
+ }
+
+ /*Key frame para animar el formulario*/
+ @-webkit-keyframes sombra { 
+    0% { 
+        box-shadow: 0 0 15px red; 
+    } 
+    100% { 
+        box-shadow: 0 0 15px yellow; 
+    } 
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th {
+    text-align: left;
+  }
+
+th, td {
+    padding: 15px;
+  }
