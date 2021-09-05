@@ -42,7 +42,7 @@
     padding: 20px;
   }
 
-  .row-four {
+  .row-three {
     padding: 20px;
   }
   
@@ -78,6 +78,32 @@
     cursor: pointer;
   }
   
+  #Iniciar_Sesión {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background-color: #e48111;
+    color: #fff;
+    margin: auto;
+    display: block;
+    outline: none;
+    cursor: pointer;
+  }
+
+  #Registrarse {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background-color: #e48111;
+    color: #fff;
+    margin: auto;
+    display: block;
+    outline: none;
+    cursor: pointer;
+  }
+
   #Enc:hover{
     background-color: #f2a90a;
   }
