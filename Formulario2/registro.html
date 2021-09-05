@@ -8,7 +8,7 @@
 
 </head>
 <body bgcolor="#f2f3b8">
-    <h3>Registrate</h3>
+    <h2>Registrate</h2>
     <form class="form" id="form" onsubmit="return validateForm()">
       <div class="row-one">
         <p class="text">Nombre </p><input type="text" class="text-input" id="Nombre" autocomplete="off" required>
@@ -16,15 +16,25 @@
         </div>
 
         <div class="row-two">
-          <p class="text">Documento</p><input type="number" class="text-input" id="Documento" autocomplete="off" required/>
+          <p class="text"></p>Tipo de Documento</p>
+            <select name="Documento" required>
+              <option value="" disabled selected hidden>Selecciona tipo de Documento</option>
+              <option value="Cédula de ciudadania">Cédula de Ciudadanía</option>
+              <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+            </select>
+          <p class="text"></p>N° Documento</p><input type="text" class="text-input" id="Documento" autocomplete="off" required/></p>
+           
+          Sexo:     
           <label class="container">
-          <p class="text">F</p><input type="radio" name="radio" id="f">
+            <input type="radio" name="radio" id="f">
+            <label for="Femenino">F</label>
             <span class="checkmark"></span>
-          </label>
+            </label>
           <label class="container">
-          <p class="text">M</p><input type="radio" name="radio" id="m">
-            <span class="checkmark"></span>
-          </label>
+          <input type="radio" name="radio" id="m">
+          <label for="Masculino">M</label>  
+          <span class="checkmark"></span>
+          </label></p>
           </div>
           
           <div>
@@ -33,16 +43,16 @@
           </div>
 
         <div class="row-three">
-          <p class="text">¿Cuál es su ocupación?</p>
+          <p class="text">¿Cuál es su ocupación?
           <select name="Ocupación">
             <option value="value1">Estudiante</option>
             <option value="value2" selected>Docente</option>
             <option value="value3">Trabajador</option>
           </select>
           </div>
-          <br />
+          <hr />
         <div class="row-four">
-             Datos de contacto: <input type="contacto" name="contacto"></p>
+             <h4> Datos de contacto: </h4></p>
             Introduce tu email: <input type="email" name="email"></p>
 	          Contraseña: <input type="password" NAME="contraseña"><BR> 
            <br />
