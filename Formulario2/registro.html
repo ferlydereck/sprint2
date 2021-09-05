@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN STARK</title>
+
+</head>
+<body>
+    <h3>Registrate</h3>
+    <form class="form" id="form" onsubmit="return validateForm()">
+      <div class="row-one">
+        <p class="text">Nombre </p><input type="text" class="text-input" id="Nombre" autocomplete="off" required>
+        <p class="text">Apellido </p><input type="text" class="text-input" id="Apellido" autocomplete="off" required>
+        </div>
+
+        <div class="row-two">
+          <p class="text">Documento</p><input type="number" class="text-input" id="Documento" autocomplete="off" required/>
+          <label class="container">
+          <p class="text">F</p><input type="radio" name="radio" id="f">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">
+          <p class="text">M</p><input type="radio" name="radio" id="m">
+            <span class="checkmark"></span>
+          </label>
+          </div>
+          
+          <div>
+            <label for="bday">Seleccione su fecha de nacimiento:</label>
+            <input type="date" id="bday" name="bday">
+          </div>
+
+        <div class="row-three">
+          <p class="text">¿Cuál es su ocupación?</p>
+          <select name="Ocupación">
+            <option value="value1">Estudiante</option>
+            <option value="value2" selected>Docente</option>
+            <option value="value3">Trabajador</option>
+          </select>
+          </div>
+
+        <div class="row-four">
+            </p class="text">Datos de contacto: </p>
+            Introduce tu email: <input type="email" name="email"></p>
+	          Contraseña: <input type="password" NAME="contraseña"><BR> 
+              <input type="submit" value="Enviar"> 
+              <input type="reset" value="Borrar">
+            </div>
+          </div>
+        </form>
+        </body>
+        <br>
+    </div>  
+</body>
+</html>
